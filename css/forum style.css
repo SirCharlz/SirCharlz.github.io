@@ -1,0 +1,152 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif
+}
+
+#page-body{
+    background:linear-gradient( 115deg, rgba(58, 58, 150, 0.8), rgba( 136, 136, 205, 0.7) ), url(../img/cdn.jpeg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+}
+
+.name{
+    font-size: large;
+    motion: auto;
+}
+
+.logo{
+    color: #ffff;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+span{
+    color: #f9004d;
+}
+
+
+#pageheader{
+    text-align: center;
+    padding: 70px 0 60px 0;
+}
+
+#fore-cointainer{
+    width: 50%;
+    margin: 0 auto;
+    background: rgba(27, 27, 50, 0.8 );
+    padding: 30px;
+    border-radius: 8px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, textarea, input[type="submit"] {
+    width: 100%;
+    margin-top: 8px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, textarea{
+   padding: 6px 12px;
+   border-radius: 4px;
+   outline: none;
+   border: 1px solid #ced4da;
+}
+
+input[type="text"]:focus{
+    border: 1px blue solid;
+}
+
+
+
+.input-box{
+    margin-bottom:20px ;
+}
+
+label{
+    font-size:18px ;
+}
+
+.radio-input, .check-input{
+    margin-top: 8px;
+}
+
+input[ type="submit"]{
+    padding: 12px;
+    background:#37af65;
+    cursor: pointer;
+    color:#ffff ;
+    border: none;
+    border-radius: 2px;
+}
+
+input[ type="submit"]:hover{
+    background:blue;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color: burlywood;
+    transition: .4s;}
+
+    .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 10%;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    .logo{
+        font-size: 25px;
+        color: #00abf0;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    
+    .navbar a{
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+        transition: .3s;
+    }
+    .navbar a.btn{
+        background-color: brown;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        padding: 10px 25px;
+        border-radius: 30px;
+        transition: transform .4s;
+    }
+    .btn:hover{
+        transform: scale(1.2);
+    }
+    
+    .navbar a:hover, 
+    .navbar a.active {
+        color: #00abf0;
+    }
